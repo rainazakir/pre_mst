@@ -254,12 +254,9 @@ if __name__ == '__main__':
 #         state=[0, 0]
 #         temporalEvolution = 'data/rk-v' + str(valueA) + '-' + str(valueB) + '.txt'
 #         RungeKutta.bestOfN.runRungeKutta(state, T, dt, gammas, alphas, rhos, sigmas, finalStateFile, 'none', temporalEvolution, '', plot_evo, N)
-    if len(listB) !=0:
-        levelB = np.mean(listB)
-        print("Cummulative levelB",levelB)
     if len(listA) !=0:
         levelA = np.mean(listA)
-        print("levelA",levelA)
+        print("levelA:",levelA)
 #        print("levelB",levelB)
     if (plot_evo): 
         plt.show()

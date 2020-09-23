@@ -2,7 +2,7 @@
 #!/bin/bash
 #TO FIND THE AVERAGES
 model="cdci"            # "cdci dmvd"
-zealots="18"            # "18,20,22,24,26 ..."
+zealots="18"            # "18 20 22 52 76"
 qratio="1.1"        # "1.05 1.5 1.1 .."
 whichAvg="Aavg Bavg"         # "Aavg Bavg"
 timesteps=500           # 
